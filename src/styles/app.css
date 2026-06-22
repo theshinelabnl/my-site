@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+@import 'tailwindcss';
+
+@layer base {
+  html,
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family:
+      'Nunito',
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family:
+ 'Nunito',
+      system-ui,
+      -apple-system,
+      sans-serif;
+    font-weight: 1000 !important;
+  }
+
+  h1::first-letter,
+  h2::first-letter,
+  h3::first-letter,
+  h4::first-letter,
+  h5::first-letter,
+  h6::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+@layer components {
+  .hover-pop-button {
+    @apply transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg hover:shadow-emerald-200 hover:ring-2 hover:ring-emerald-300/70 focus-visible:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400;
+  }
+
+  .hover-pop-card {
+    @apply cursor-pointer transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-100 hover:ring-2 hover:ring-emerald-200/70;
+  }
+}
+
+@layer base {
+  .using-mouse * {
+    outline: none !important;
+  }
+}
