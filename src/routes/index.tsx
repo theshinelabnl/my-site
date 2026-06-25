@@ -192,7 +192,50 @@ function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Why Choose Us Section */}
+      <section id="about" className="scroll-mt-20 py-24 bg-slate-50 border-y border-slate-100">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl uppercase">
+              Why Choose Us
+            </h2>
+            <div className="h-1.5 w-20 bg-emerald-500 mx-auto mt-4 rounded-full"></div>
+          </div>
+
+          <div className="max-w-3xl mx-auto space-y-5">
+            <div className="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm">
+              <div>
+                <h3 className="text-lg font-bold text-slate-950">High Quality Chemicals & Equipment</h3>
+                <p className="mt-1.5 text-sm text-slate-600 leading-relaxed">
+                  We use only professional-grade and vehicle-safe formulas to clean, shine, and protect your vehicle's delicate surfaces.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm">
+              <div>
+                <h3 className="text-lg font-bold text-slate-950">Mobile Convenience</h3>
+                <p className="mt-1.5 text-sm text-slate-600 leading-relaxed">
+                  No drop-offs, shuttles, or wasted days. Our self-contained mobile setup brings premium results straight to your driveway.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm">
+              <div>
+                <h3 className="text-lg font-bold text-slate-950">Supporting Local Business</h3>
+                <p className="mt-1.5 text-sm text-slate-600 leading-relaxed">
+                  We are proudly Newfoundland owned and operated. We take extreme pride in keeping Avalon Peninsula vehicles looking their absolute best.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+{/* Services Section */}
       <section id="services" className="scroll-mt-20 py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -421,6 +464,9 @@ function Home() {
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 font-bold">✓</span> Wheel and rim wipe down
                   </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-emerald-500 font-bold">✓</span> Light clean & protectant application
+                  </li>
                 </ul>
                 <a
                   href="#booking"
@@ -434,50 +480,6 @@ function Home() {
 
           <div className="mt-12 text-center text-sm text-slate-500">
             * prices listed are starting rates, prices are subject to change.
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section id="about" className="scroll-mt-20 py-24 bg-slate-50 border-y border-slate-100">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl uppercase">
-              Why Choose Us
-            </h2>
-            <div className="h-1.5 w-20 bg-emerald-500 mx-auto mt-4 rounded-full"></div>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-3">
-            <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl border border-slate-100 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 text-2xl font-bold mb-4">
-                🧪
-              </div>
-              <h3 className="text-lg font-bold text-slate-950">High Quality Chemicals</h3>
-              <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                We use only professional-grade, pH-balanced, and vehicle-safe formulas to clean, shine, and protect your vehicle's delicate surfaces.
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl border border-slate-100 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 text-2xl font-bold mb-4">
-                🚚
-              </div>
-              <h3 className="text-lg font-bold text-slate-950">Mobile Convenience</h3>
-              <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                No drop-offs, shuttles, or wasted days. Our self-contained mobile setup brings premium results straight to your driveway.
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl border border-slate-100 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 text-2xl font-bold mb-4">
-                🤝
-              </div>
-              <h3 className="text-lg font-bold text-slate-950">Supporting Local Business</h3>
-              <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                We are proudly Newfoundland owned and operated. We take extreme pride in keeping Avalon Peninsula vehicles looking their absolute best.
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -567,10 +569,10 @@ function Home() {
                         name="service_requested"
                         className="mt-1.5 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-950 focus:border-emerald-500 focus:bg-white focus:outline-none focus:ring-4 focus:ring-emerald-500/15 transition-all"
                       >
-                        <option value="Full Detail">Full Detail Package (Starting at $180)</option>
-                        <option value="Interior Detail">Interior Detailing (Starting at $100)</option>
-                        <option value="Exterior Detail">Exterior Detailing (Starting at $90)</option>
-                        <option value="Maintenance Detail">Maintenance Package (Starting at $80)</option>
+                        <option value="Full Detail">Full Detail Package</option>
+                        <option value="Interior Detail">Interior Detailing</option>
+                        <option value="Exterior Detail">Exterior Detailing</option>
+                        <option value="Maintenance Detail">Maintenance Package</option>
                       </select>
                     </label>
                   </div>
@@ -594,7 +596,7 @@ function Home() {
                         name="notes"
                         rows={4}
                         className="mt-1.5 w-full rounded-xl border border-slate-200 bg-slate-50/50 px-4 py-3 text-slate-950 placeholder:text-slate-400 focus:border-emerald-500 focus:bg-white focus:outline-none focus:ring-4 focus:ring-emerald-500/15 transition-all"
-                        placeholder="Please note heavy pet hair, sand, custom wrap, etc."
+                        placeholder="Please note heavy pet hair, sand, excessive stains, etc."
                       />
                     </label>
                   </div>
@@ -658,7 +660,7 @@ function Home() {
                 </div>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Premium mobile car detail with professional safe washing, deep upholstery cleaning, and long-lasting gloss protection brought to your door.
+                Premium mobile car detail with professional safe washing, deep upholstery cleaning, and long-lasting shine and protection brought to your door.
               </p>
             </div>
 
@@ -678,7 +680,6 @@ function Home() {
               <ul className="space-y-2.5 text-sm">
                 <li>Phone: <span className="text-white">(709) 330-0021</span></li>
                 <li>Email: <span className="text-white">theshinelabnl@gmail.com</span></li>
-                <li>Hours: <span className="text-white">8:00 AM - 7:00 PM (Daily)</span></li>
               </ul>
             </div>
 
@@ -699,12 +700,6 @@ function Home() {
             </div>
           </div>
 
-          <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-            <p>© {new Date().getFullYear()} The Shine Lab NL. All Rights Reserved.</p>
-            <div className="flex gap-4">
-              <a href="#top" className="hover:text-slate-300">Back to Top</a>
-            </div>
-          </div>
         </div>
       </footer>
     </main>
