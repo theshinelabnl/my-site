@@ -158,20 +158,25 @@ function Home() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="relative isolate min-h-[85vh] overflow-hidden flex items-center bg-gradient-to-br from-slate-100 via-white to-emerald-50/20">
+      <section id="home" className="relative isolate min-h-[85vh] overflow-hidden flex items-center">
+        <img
+          src="https://drive.google.com/thumbnail?id=1nZh49E_-k_LiScjpkgp7EWuRW1ypkTea&sz=w2200"
+          alt="The Shine Lab detailing background"
+          className="absolute inset-0 h-full w-full object-cover object-[center_70%] brightness-[0.95]"
+        />
         <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 w-full">
-          <div className="max-w-2xl rounded-3xl border border-slate-200 bg-white p-8 shadow-2xl shadow-slate-900/10 sm:p-10 border-solid">
+          <div className="max-w-2xl rounded-3xl border border-white/60 bg-white/90 p-8 shadow-2xl shadow-slate-900/10 backdrop-blur-md sm:p-10 border-solid">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 border border-emerald-200/50 px-3.5 py-1.5 text-xs font-bold tracking-wide text-emerald-700">
               <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
               PREMIUM MOBILE DETAIL • NEWFOUNDLAND
             </div>
             
             <h1 className="text-balance text-4xl font-extrabold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl uppercase">
-              the formula to a <span className="text-emerald-600 relative inline-block">premium detail</span>
+              the formula for a <span className="text-emerald-600 relative inline-block">premium detail</span>
             </h1>
             
             <p className="mt-6 text-lg leading-relaxed text-slate-700">
-              No drop-offs, no waiting rooms — just convenient, professional-grade auto detail brought directly to your doorstep in Newfoundland. We deliver high-gloss showroom depth with safe wash methods and absolute care.
+              High-end tools. Quality chemicals. Proven techniques. We deliver top-tier detailing to driveways across Newfoundland.
             </p>
             
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -687,12 +692,12 @@ function Home() {
               <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Social Media</h4>
               <ul className="space-y-2.5 text-sm">
                 <li>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
+                  <a href="https://www.instagram.com/theshinelabnl" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
+                  <a href="https://www.facebook.com/profile.php?id=61591526211593" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
                     Facebook
                   </a>
                 </li>
