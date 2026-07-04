@@ -164,7 +164,6 @@ function Home() {
           alt="The Shine Lab detailing background"
           className="absolute inset-0 h-full w-full object-cover object-[center_70%] brightness-[0.95]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/85 to-transparent sm:bg-gradient-to-r" />
         <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl rounded-3xl border border-white/60 bg-white/90 p-8 shadow-2xl shadow-slate-900/10 backdrop-blur-md sm:p-10 border-solid">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 border border-emerald-200/50 px-3.5 py-1.5 text-xs font-bold tracking-wide text-emerald-700">
