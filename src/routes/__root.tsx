@@ -21,7 +21,33 @@ export const Route = createRootRouteWithContext<{
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'App',
+        title: 'The Shine Lab | Auto Detailing',
+      },
+      {
+        name: 'description',
+        content:
+          'Premium mobile detailing services across Newfoundland. Professional interior and exterior detailing delivered to your driveway.',
+      },
+      {
+        property: 'og:title',
+        content: 'The Shine Lab | Auto Detailing',
+      },
+      {
+        property: 'og:description',
+        content:
+          'High-end mobile detailing services across Newfoundland.',
+      },
+      {
+        property: 'og:image',
+        content: 'https://theshinelabdetailing.ca/logo.png',
+      },
+      {
+        property: 'og:url',
+        content: 'https://theshinelabdetailing.ca',
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
       },
     ],
     links: [
