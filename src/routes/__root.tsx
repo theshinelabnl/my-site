@@ -52,7 +52,7 @@ export const Route = createRootRouteWithContext<{
     ],
     links: [
       { rel: 'stylesheet', href: appCss },
-      { rel: 'icon', href: '/favicon.ico' },
+      { rel: 'icon', href: '/logo.ico' },
     ],
   }),
   notFoundComponent: () => <div>Route not found</div>,
